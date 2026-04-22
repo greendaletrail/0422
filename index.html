@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My GitHub Pages Site</title>
+<title>画像ループアニメーション</title>
 <style>
     body {
         margin: 0;
-        background: #222;
+        padding: 0;
     }
 
     /* アニメーション全体の枠 */
@@ -15,7 +15,9 @@
         overflow: hidden;
         white-space: nowrap;
         width: 100%;
-        height: 200px auto; /* 高さは画像に合わせて調整 */
+        height: auto ; /* 高さは画像に合わせて調整 */
+        object-fit: cover; 
+        display: block; 
         position: relative;
     }
 
@@ -46,27 +48,16 @@
 <div class="slider">
     <div class="slider-track">
         <!-- 同じ画像セットを2回繰り返すことでループ感を出す -->
-        <img src="y (2).jpeg" alt="画像1">
-        <img src="y (5).jpeg" alt="画像2">
-        <img src="y (12).jpeg" alt="画像3">
-        <img src="y (22).jpeg" alt="画像4">
-        <img src="y (23).jpeg" alt="画像5">
-        <img src="y (32).jpeg" alt="画像6">
-        <img src="y (40).jpeg" alt="画像7">
-        <img src="y (53).jpeg" alt="画像8">
-        <img src="y (56).jpeg" alt="画像9">
-        <img src="y (65).jpeg" alt="画像10">
-
-        <img src="y (2).jpeg" alt="画像1">
-        <img src="y (5).jpeg" alt="画像2">
-        <img src="y (12).jpeg" alt="画像3">
-        <img src="y (22).jpeg" alt="画像4">
-        <img src="y (23).jpeg" alt="画像5">
-        <img src="y (32).jpeg" alt="画像6">
-        <img src="y (40).jpeg" alt="画像7">
-        <img src="y (53).jpeg" alt="画像8">
-        <img src="y (56).jpeg" alt="画像9">
-        <img src="y (65).jpeg" alt="画像10">
+        <img src="images/y (2).jpeg" alt="画像1">
+        <img src="images/y (5).jpeg" alt="画像2">
+        <img src="images/y (12).jpeg" alt="画像3">
+        <img src="images/y (22).jpeg" alt="画像4">
+        <img src="images/y (23).jpeg" alt="画像5">
+        <img src="images/y (32).jpeg" alt="画像6">
+        <img src="images/y (40).jpeg" alt="画像7">
+        <img src="images/y (53).jpeg" alt="画像8">
+        <img src="images/y (56).jpeg" alt="画像9">
+        <img src="images/y (65).jpeg" alt="画像10">
     </div>
 </div>
 
